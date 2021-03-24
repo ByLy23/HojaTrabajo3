@@ -4,7 +4,7 @@
   "description": "HojaTrabajo3",
   "main": "201700733.js",
   "scripts": {
-    "test": "mocha || true",
+    "test": "mocha",
     "test-code-coverage": "nyc --reporter=text mocha",
     "test-html": "nyc --reporter=html --reporter=text mocha"
   },

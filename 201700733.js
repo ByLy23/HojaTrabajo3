@@ -1,17 +1,17 @@
 module.exports={
     Gritar: function(texto){
         //todo lo que se escriba se manda en mayusculas
-        return("te estoy gritando que: "+texto.toUpperCase())
+        return("TE ESTOY GRITANDO QUE: "+texto.toUpperCase())
     },
     Susurrar: function(texto){
         //todo lo que se escriba se manda en minusculas
-        return("te estoy gritando que: "+texto.toLowerCase())
+        return("te estoy susurrando que: "+texto.toLowerCase())
     },
     Cheemsficador: function(texto){
         //todo lo que se escriba se manda en lenguaje Cheems
         var tex= texto.toLowerCase();
         var res="";
-        for(var i; i<tex.lenght();i++){
+        for(var i; i<tex.length;i++){
             var a=tex[i];
         switch(a){
             case "a":
@@ -37,7 +37,7 @@ module.exports={
     return res;
     },
     contarLetras:function(texto){
-        return ("Tu texto tiene: "+texto.lenght()+" letras");
+        return ("Tu texto tiene: "+texto.length+" letras");
     },
     charlieCharlie:function(texto){
         var random=Math.floor(Math.random()*2);
