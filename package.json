@@ -1,0 +1,26 @@
+{
+  "name": "ht3",
+  "version": "1.0.0",
+  "description": "HojaTrabajo3",
+  "main": "201700733.js",
+  "scripts": {
+    "test": "mocha || true",
+    "test-code-coverage": "nyc --reporter=text mocha",
+    "test-html": "nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByLy23/HojaTrabajo3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByLy23/HojaTrabajo3/issues"
+  },
+  "homepage": "https://github.com/ByLy23/HojaTrabajo3#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
+}
